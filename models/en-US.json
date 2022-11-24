@@ -1,0 +1,185 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "voice banking",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "HelloWorldIntent",
+                    "slots": [],
+                    "samples": [
+                        "hello",
+                        "how are you",
+                        "say hi world",
+                        "say hi",
+                        "hi",
+                        "say hello world",
+                        "say hello"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AccountServicesIntent",
+                    "slots": [],
+                    "samples": [
+                        "Account Service",
+                        "Account Services"
+                    ]
+                },
+                {
+                    "name": "AccountTypeIntent",
+                    "slots": [
+                        {
+                            "name": "AccountName",
+                            "type": "AMAZON.SearchQuery"
+                        }
+                    ],
+                    "samples": [
+                        "I want to know about {AccountName}"
+                    ]
+                },
+                {
+                    "name": "AccountDetailsIntent",
+                    "slots": [],
+                    "samples": [
+                        "Account Detail",
+                        "Account Details"
+                    ]
+                },
+                {
+                    "name": "LoanServicesIntent",
+                    "slots": [],
+                    "samples": [
+                        "Loan Service",
+                        "Loan Services"
+                    ]
+                },
+                {
+                    "name": "LoanTypeIntent",
+                    "slots": [
+                        {
+                            "name": "LoanType",
+                            "type": "AMAZON.SearchQuery"
+                        }
+                    ],
+                    "samples": [
+                        "About {LoanType}"
+                    ]
+                },
+                {
+                    "name": "LoanDetailsIntent",
+                    "slots": [],
+                    "samples": [
+                        "Loan Detail",
+                        "Loan Details"
+                    ]
+                },
+                {
+                    "name": "AccountRateIntent",
+                    "slots": [],
+                    "samples": [
+                        "Minimum Balance",
+                        "Interest Rate"
+                    ]
+                },
+                {
+                    "name": "LoanRateIntent",
+                    "slots": [],
+                    "samples": [
+                        "Loan Rate"
+                    ]
+                },
+                {
+                    "name": "LoanDocsIntent",
+                    "slots": [],
+                    "samples": [
+                        "Loan Documents"
+                    ]
+                },
+                {
+                    "name": "AccountDocsIntent",
+                    "slots": [],
+                    "samples": [
+                        "Account Documents"
+                    ]
+                },
+                {
+                    "name": "OpenAccountIntent",
+                    "slots": [],
+                    "samples": [
+                        "Open Account"
+                    ]
+                },
+                {
+                    "name": "SendAccountFormIntent",
+                    "slots": [
+                        {
+                            "name": "Email",
+                            "type": "AMAZON.SearchQuery"
+                        }
+                    ],
+                    "samples": [
+                        "My email id is {Email}"
+                    ]
+                },
+                {
+                    "name": "BranchIntent",
+                    "slots": [],
+                    "samples": [
+                        "Branch"
+                    ]
+                },
+                {
+                    "name": "GetBranchIntent",
+                    "slots": [
+                        {
+                            "name": "Area",
+                            "type": "AMAZON.SearchQuery"
+                        }
+                    ],
+                    "samples": [
+                        "{Area} Area"
+                    ]
+                },
+                {
+                    "name": "GetLoanIntent",
+                    "slots": [],
+                    "samples": [
+                        "Get Loan"
+                    ]
+                },
+                {
+                    "name": "SendLoanFormIntent",
+                    "slots": [
+                        {
+                            "name": "Mail",
+                            "type": "AMAZON.SearchQuery"
+                        }
+                    ],
+                    "samples": [
+                        "{Mail} is my email"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
